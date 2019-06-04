@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+gem 'will_paginate-bootstrap'
+
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+
 gem 'popper_js', '1.11.1'
 
 gem "bootstrap", "4.0.0.alpha6"
