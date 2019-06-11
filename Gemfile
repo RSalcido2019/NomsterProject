@@ -3,13 +3,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
-gem "figaro"
+gem 'figaro'
 
-gem "geocoder"
+gem 'geocoder'
 
 gem 'devise'
 
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
 
 gem 'simple_form'
 
@@ -19,7 +19,7 @@ gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 
 gem 'popper_js', '1.11.1'
 
-gem "bootstrap", "4.0.0.alpha6"
+gem 'bootstrap', '4.0.0.alpha6'
 
 source 'https://rails-assets.org' do
 
