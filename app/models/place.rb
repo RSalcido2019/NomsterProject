@@ -12,5 +12,5 @@ class Place < ApplicationRecord
   
   
   validates :name, presence: true, length: { minimum: 3 } 
-  validates :address, :description, :photo, presence: true
+  validates :address, :description, presence: true
 end
