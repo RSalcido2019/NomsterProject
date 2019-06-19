@@ -9,7 +9,7 @@
     @place = Place.new
   end
 
-  def create
+  def create   
     @place = current_user.places.create(place_params)
     if @place.valid?
       redirect_to root_path
@@ -21,6 +21,7 @@
   def show
     @place = Place.find(params[:id])
     @comment = Comment.new
+    @photo = Photo.new
   end
 
   def edit
@@ -33,7 +34,6 @@
 
   def update
     @place = Place.find(params[:id])
-    
     if @place.user != current_user
       return render plain: 'Not Allowed', status: :forbidden
     end
