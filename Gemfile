@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+gem "fog-aws"
+
 gem 'carrierwave', '~> 1.0'
 
 gem "geocoder"
