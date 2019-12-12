@@ -1,24 +1,3 @@
-# README
+# NOMSTER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Nomster is a database-driven web application that is deployed live on the Internet. This project uses a variety of programs and needs to connect to databases to store user-generated data. With the implementation of Google API, a Map is offered for uploaded locations with street and satellite views.  
